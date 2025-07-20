@@ -1,9 +1,21 @@
 
 # WordSearch
 
-This isn't revolutionary or anything. Its a repo that can be used to find key words or regex with in cmd, powershell, bash. It's not hyper effective, and likely will provide you more info than you want. Uses keywords or regex. This will look for files names and basic content checking.
+Simple scripts to search for keywords or regex in file names and file contents.
 
-## Usage Examples
+## Quick Start - GUI Version 🎨
+
+### Windows
+```cmd
+launch_gui.bat
+```
+
+### Linux/macOS
+```bash
+./launch_gui.sh
+```
+
+## Command Line Usage Examples
 
 ### PowerShell
 ```powershell
@@ -30,4 +42,13 @@ This isn't revolutionary or anything. Its a repo that can be used to find key wo
 ```
 
 Both scripts output results to `search_results.csv` by default.
+
+## Installation
+
+### GUI Requirements
+```bash
+pip install -r requirements.txt
+```
+
+The GUI requires Python 3.7+ and PyQt6.
 

@@ -1,0 +1,2 @@
+# WordSearch GUI Dependencies
+PyQt6>=6.4.0
